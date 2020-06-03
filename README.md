@@ -6,13 +6,13 @@
 공개키는 자동으로 유저에 배포되고 개인키는 안전한 장소에 다운로드 하시면 됩니다 
 
 # 옵션
--u : 유저명 혹은 all(전체)
--p : 개인키 암호 
+- -u : 유저명 혹은 all(전체)
+- -p : 개인키 암호 
 
 # 사용방법
 <pre>
 <code>
-wget 
+wget https://raw.githubusercontent.com/runup-dev/ssh-key-renewal/master/setRenewal.sh
 
 ./setRenewal.sh -u {유저명} -p {개인키암호}
 </code>
